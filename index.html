@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA DE PRESCRIÇÃO PENAL</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo"><strong>Prescrição da Pretenção Punitiva</strong></h1>
+    </header>
+    
+    <main class="dados">
+        <form class="dados__formulario">
+            <label for="reu">Autor dos fatos:</label> <input type="text" id='reu' class="dados__formulario___dado" placeholder="Nome do autor dos fatos">
+            <label for="idadeF">Idade na data dos fatos:</label> <input type="number" id='idadeF'class="dados__formulario___dado" placeholder="Idade do autor na data dos fatos"> anos
+            <label for="idadeS"></label> Idade na data da sentença: <input type="number" id="idadeS" class="dados__formulario___dado" placeholder="Caso não haja sentença, idade atual do autor"> anos
+            <label id= "lbpena" for="pena">Pena máxima em abstrato: </label><input type="number" id='pena' class="dados__formulario___dado" placeholder="Caso haja sentença, pena em concreto"> ano(s)
+            <input type="button" value="Calcular" id="calcular" class="form__button">
+        </form>
+        
+        <div id='resp' class="resp">
+
+        </div>
+    </main>
+    
+    <script src="cod.js"></script>
+    
+    <footer class="rodape">
+        <p>&copy; DouglasDadonaBarreiros</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    background-color: #FDFDFD;
+    font: normal 14pt Arial;
+}
+
+.cabecalho {
+    background: #cdcdcd;
+    color: rgb(150, 0, 0);
+    font-size: 26pt;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    padding: 15px;
+    text-align: center;
+}
+
+.titulo {
+    transform: translate(-50%, -30%, -20%)
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    color:rgb(150, 0, 0);
+    background-color:#cdcdcd;
+    border-radius: 10px;
+    padding: 15px;
+    width: auto;
+    margin: auto 50px 100px 50px;
+    box-shadow: 5px 5px 10px rgb(37, 37, 37);
+}
+
+.dados__formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.resp {
+    color: rgb(150, 0, 0);
+    margin: 15px 50px auto 50px;
+    line-height: 2rem;
+}
+
+.dados__formulario___dado {
+    border-radius: 5px;
+    padding: 10px;
+    width: 285px;    
+}
+
+.form__button {
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(150, 0, 0);
+    background-position: bottom;
+}
