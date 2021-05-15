@@ -19,7 +19,7 @@ body {
 
 .dados {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: left;
     color:rgb(150, 0, 0);
     background-color:#cdcdcd;
@@ -37,7 +37,7 @@ body {
 
 .resp {
     color: rgb(150, 0, 0);
-    margin: 15px 50px auto 50px;
+    margin: 20px 50px 20px 50px;
     line-height: 2rem;
 }
 
@@ -63,4 +63,14 @@ footer {
     text-align: center;
     color: rgb(150, 0, 0);
     background-position: bottom;
+}
+
+@media screen and (min-width: 768px) {
+    .dados {
+        flex-direction: row;
+    }
+
+    .resp {
+        margin: 30px;
+    }
 }
